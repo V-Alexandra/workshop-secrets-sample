@@ -20,7 +20,7 @@ param openaiLocation string
 param promptContentFilter bool
 param searchLocation string
 param tags object
-//
+//another comment!
 var appName = 'call-center-ai'
 var prefix = deployment().name
 var appUrl = 'https://call-center-ai.${acaEnv.properties.defaultDomain}'
